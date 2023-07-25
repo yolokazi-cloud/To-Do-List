@@ -1,0 +1,101 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body{
+   background-color:rgb(254, 255, 255);
+}
+.container{
+    height:90vh;
+    width:40%;
+    position: absolute;
+    top:5%;
+    left:32%;
+    align-items: center;
+    border-radius: 7px;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 2px 2px whitesmoke;
+}
+.container h1, label, input[type="text"]{
+    color:rgb(85, 83, 83);
+    position: relative;
+    top:0%;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+.container input[type="text"]{
+    width:180px;
+    height:30px;
+    border-radius: 3px;
+    border: 1px solid grey;
+  
+}
+.container ul{
+    list-style: none;
+}
+.container #addTask{
+    border: 1px solid grey;
+    height:35px;
+    border-radius: 3px;
+    color:grey;
+}
+.input[type="checkbox"]{
+    color:rgb(85, 83, 83) ;
+}
+
+.deletebutton{
+    border-radius: 3px;
+    margin-left:15px;
+    border: 1px solid grey;
+    height:30px;
+    width:70px;
+    margin-top: 15px;
+  
+}
+
+@media only screen and (max-width:400px){
+    .container{
+        height:90vh;
+        width:120%;
+        align-items: center;
+        position: relative;
+        left:0%;
+        top:0%;
+        right:0%;
+        bottom:0%;
+        
+    }
+    
+}
+@media only screen and (max-width:800px){
+    .container{
+        height:90vh;
+        width:80%;
+        align-items: center;
+        position: relative;
+        left:5%;
+        top:2%;
+        right:10%;
+        bottom:2%;
+        
+    }
+    
+}
+@media only screen and (max-width:300px){
+    .container{
+        height:90vh;
+        width:100%;
+        align-items: center;
+        position: relative;
+        left:0%;
+        top:0%;
+        right:0%;
+        bottom:0%;
+        
+    }
+    
+}
